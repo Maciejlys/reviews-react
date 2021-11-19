@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reviews-react/static/css/main.87afe2f4.chunk.css",
+    "main.js": "/reviews-react/static/js/main.d4ef8afc.chunk.js",
+    "main.js.map": "/reviews-react/static/js/main.d4ef8afc.chunk.js.map",
+    "runtime-main.js": "/reviews-react/static/js/runtime-main.69df8c12.js",
+    "runtime-main.js.map": "/reviews-react/static/js/runtime-main.69df8c12.js.map",
+    "static/js/2.e2346986.chunk.js": "/reviews-react/static/js/2.e2346986.chunk.js",
+    "static/js/2.e2346986.chunk.js.map": "/reviews-react/static/js/2.e2346986.chunk.js.map",
+    "index.html": "/reviews-react/index.html",
+    "static/css/main.87afe2f4.chunk.css.map": "/reviews-react/static/css/main.87afe2f4.chunk.css.map",
+    "static/js/2.e2346986.chunk.js.LICENSE.txt": "/reviews-react/static/js/2.e2346986.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69df8c12.js",
+    "static/js/2.e2346986.chunk.js",
+    "static/css/main.87afe2f4.chunk.css",
+    "static/js/main.d4ef8afc.chunk.js"
+  ]
+}
