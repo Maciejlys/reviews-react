@@ -1,10 +1,10 @@
 # About the project
 
-Small reviews project that you can put on your site. \
+Small reviews project that you can put on your site.
 
-Another small react + typescript project which is using CSS from [John-Smilga](https://github.com/john-smilga). \
+Another small react + typescript project which is using CSS from [John-Smilga](https://github.com/john-smilga).
 
-But whole app was written by me. \
+But whole app was written by me.
 I wrtote it in typescript so I can get used to it.
 
 # Getting Started with Create React App
