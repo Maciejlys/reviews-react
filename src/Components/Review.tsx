@@ -1,9 +1,9 @@
 import React from "react";
-import { SingleReview } from "../Types/reviewsTypes";
+import { SingleReview, ReviewFunctions } from "../Types/reviewsTypes";
 import { FaQuoteRight } from "react-icons/fa";
 import { AiFillRightCircle, AiFillLeftCircle } from "react-icons/ai";
 
-export const Review: React.FC<SingleReview> = ({
+export const Review: React.FC<SingleReview & ReviewFunctions> = ({
   id,
   name,
   job,
@@ -12,17 +12,6 @@ export const Review: React.FC<SingleReview> = ({
   prevPerson,
   nextPerson,
 }) => {
-  const handleNext = () => {
-    if (nextPerson) {
-      nextPerson();
-    }
-  };
-  const handlePrev = () => {
-    if (prevPerson) {
-      prevPerson();
-    }
-  };
-
   return (
     <>
       <div className="img-container">
@@ -35,10 +24,10 @@ export const Review: React.FC<SingleReview> = ({
       <p className="job">{job}</p>
       <p className="info">{text}</p>
       <div className="button-container">
-        <button className="prev-btn" onClick={() => handlePrev()}>
+        <button className="prev-btn" onClick={() => prevPerson()}>
           <AiFillLeftCircle />
         </button>
-        <button className="next-btn" onClick={() => handleNext()}>
+        <button className="next-btn" onClick={() => nextPerson()}>
           <AiFillRightCircle />
         </button>
       </div>

@@ -8,6 +8,9 @@ export interface SingleReview {
   job: string;
   image: string;
   text: string;
-  prevPerson?: () => void;
-  nextPerson?: () => void;
+}
+
+export interface ReviewFunctions {
+  prevPerson: () => void;
+  nextPerson: () => void;
 }

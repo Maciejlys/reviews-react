@@ -1,8 +1,6 @@
 import React from "react";
 
-interface TitleProps {}
-
-export const Title: React.FC<TitleProps> = () => {
+export const Title: React.FC = () => {
   return (
     <section className="title">
       <h2>Our reviews</h2>
